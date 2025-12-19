@@ -26,10 +26,18 @@ body {
     width:40px;
     height:40px;
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    color: white;   
     border-radius: 8px;
     font-weight:bold;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.hero-section {
+
+}
+
+.footer {
+    
 }

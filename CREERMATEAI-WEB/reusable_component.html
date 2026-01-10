@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Reusable HTML Components</title>
+</head>
+<body>
+
+<!-- ========================= -->
+<!-- Container / Section Shell -->
+<!-- ========================= -->
+<section class="section">
+  <div class="container">
+    <h2 class="section-title">Section Title</h2>
+    <p>Section content goes here.</p>
+  </div>
+</section>
+
+<section class="section">
+  <div class="container">
+    <h2 class="section-title section-title-center">Centered Section Title</h2>
+  </div>
+</section>
+
+<!-- ============== -->
+<!-- Button Component -->
+<!-- ============== -->
+<div class="component-demo">
+  <button class="btn btn-primary">Primary Button</button>
+  <button class="btn btn-secondary">Secondary Button</button>
+
+  <button class="btn btn-primary btn-large">
+    Large Button
+    <span class="btn-icon">→</span>
+  </button>
+</div>
+
+<!-- ============ -->
+<!-- Card Component -->
+<!-- ============ -->
+<div class="component-demo">
+
+  <!-- Base Card -->
+  <div class="card">
+    <div class="card-content">
+      Base Card Content
+    </div>
+  </div>
+
+  <!-- Feature Card -->
+  <div class="card feature-card">
+    <div class="feature-icon">💬</div>
+    <h3 class="feature-title">Feature Title</h3>
+    <p class="feature-description">
+      Feature description goes here.
+    </p>
+    <div class="feature-preview">Preview Area</div>
+  </div>
+
+  <!-- Preview Card -->
+  <div class="card preview-card">
+    <div class="card-content">Preview Card Content</div>
+  </div>
+
+</div>
+
+<!-- ================== -->
+<!-- Gradient / Highlight Card -->
+<!-- ================== -->
+<div class="card gradient-card">
+  <div class="gradient-card-content">
+    <div class="gradient-card-icon">🚀</div>
+    <p>Highlighted message inside gradient card.</p>
+  </div>
+</div>
+
+<!-- ================= -->
+<!-- Badge / Icon Component -->
+<!-- ================= -->
+<div class="component-demo">
+  <span class="badge">Badge</span>
+  <span class="badge badge-pill">Pill Badge</span>
+
+  <span class="icon">⚙️</span>
+  <span class="icon">💡</span>
+</div>
+
+<!-- ============== -->
+<!-- Avatar Component -->
+<!-- ============== -->
+<div class="avatar-container">
+  <div class="avatar">👩</div>
+  <span class="avatar-name">User Name</span>
+</div>
+
+<!-- ======================== -->
+<!-- Avatar + Dropdown Shell -->
+<!-- ======================== -->
+<div class="avatar-menu">
+  <div class="avatar-container">
+    <div class="avatar">👨</div>
+  </div>
+  <div class="avatar-dropdown">
+    <a href="#" class="avatar-dropdown-item">Profile</a>
+    <a href="#" class="avatar-dropdown-item">Settings</a>
+    <a href="#" class="avatar-dropdown-item">Logout</a>
+  </div>
+</div>
+
+<!-- ================= -->
+<!-- Testimonial Card -->
+<!-- ================= -->
+<div class="card testimonial-card">
+  <div class="testimonial-avatar">
+    <div class="avatar">👩</div>
+  </div>
+  <p class="testimonial-text">
+    “This product changed the way I learn.”
+  </p>
+  <p class="testimonial-author">
+    — Student Name
+  </p>
+</div>
+
+<!-- ================= -->
+<!-- Form Components -->
+<!-- ================= -->
+<form class="form">
+  <input
+    type="text"
+    class="form-input"
+    placeholder="Your Name"
+  />
+
+  <input
+    type="email"
+    class="form-input"
+    placeholder="Email Address"
+  />
+
+  <textarea
+    class="form-textarea"
+    placeholder="Message"
+    rows="4"
+  ></textarea>
+
+  <button type="submit" class="btn btn-primary">
+    Submit
+  </button>
+</form>
+
+<!-- ================= -->
+<!-- Header Component -->
+<!-- ================= -->
+<header class="header">
+  <div class="container header-content">
+    <div class="logo">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">Brand</span>
+    </div>
+
+    <nav class="nav">
+      <a href="#" class="nav-link">Home</a>
+      <a href="#" class="nav-link">Features</a>
+      <a href="#" class="nav-link">Docs</a>
+    </nav>
+
+    <div class="header-actions">
+      <button class="btn btn-secondary">Sign In</button>
+      <button class="btn btn-primary">Get Started</button>
+    </div>
+  </div>
+</header>
+
+<!-- ================= -->
+<!-- Footer Component -->
+<!-- ================= -->
+<footer class="footer">
+  <div class="container footer-content">
+    <div class="footer-logo">
+      <span class="logo-icon">C</span>
+      <span class="logo-text">Brand</span>
+    </div>
+
+    <nav class="footer-nav">
+      <a href="#" class="footer-link">Privacy</a>
+      <a href="#" class="footer-link">Terms</a>
+      <a href="#" class="footer-link">Contact</a>
+    </nav>
+  </div>
+</footer>
+
+</body>
+</html>

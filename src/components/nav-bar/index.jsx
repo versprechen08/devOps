@@ -1,3 +1,4 @@
+import { NavLink } from "react-router-dom";
 export default props => {
   return (
     <nav className="navbar navbar-expand-lg bg-body-tertiary">
@@ -9,10 +10,15 @@ export default props => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav me-auto mb-2 mb-lg-0">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="#">Home</a>
+              <NavLink className="nav-link active" aria-current="post list" to="/post-list">
+                阅读
+              </NavLink>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">Link</a>
+              <NavLink className="nav-link active" aria-current="write list" to="/Write-Post">
+                写作
+              </NavLink>
+          
             </li>
             <li className="nav-item dropdown">
               <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">

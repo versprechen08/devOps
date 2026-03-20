@@ -1,0 +1,21 @@
+
+.post-list-container{
+    // padding: 20px 0;
+    // min-height: 800px;
+    display: flex;
+    align-content: center;
+    justify-content: flex-start;
+    flex-wrap: wrap; // 宽度不够 回卷
+    
+    
+    .post-item{
+        //width: 1.8rem;
+        min-width: 250px;
+        flex: 0 0 250px;
+        // flex: grow  shrink  basis;
+        max-width: 350px;
+        margin-bottom: 15px;
+        margin-right: 10px;
+    }
+}
+ 

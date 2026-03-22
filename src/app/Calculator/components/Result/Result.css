@@ -1,0 +1,30 @@
+.calculator-results-title {
+    margin: 0 0 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111827;
+}
+.calculator-row {
+    margin: 0 0 8px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #111827;
+}
+
+.calculator-row-total {
+    padding-top: 8px;
+    border-top: 1px solid #c7d2fe;
+}
+.calculator-highlight {
+    color: #4f46e5;
+    font-weight: 600;
+}
+.calculator-results {
+  margin-top: 24px;
+  padding: 16px;
+  border-radius: 12px;
+  border: 1px solid #c7d2fe;
+  background: #eef2ff;
+  display: grid;
+  gap: 10px;
+}

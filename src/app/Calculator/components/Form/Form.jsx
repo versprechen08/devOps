@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Button from "../../../../components/Button";
-
+import "./Form.css";
 
 const Form = ({ onSubmit }) => {
   const [value, setValue] = useState();
@@ -16,10 +16,14 @@ const Form = ({ onSubmit }) => {
       className="calculator-form"
     >
       <div className="calculator-field">
-        <label className="calculator-label">Annual Taxable Income</label>
+        <label className="calculator-label" htmlFor="income">
+          Annual Taxable Income
+        </label>
+
         <div className="calculator-input-wrap">
           <span className="calculator-currency">$</span>
           <input
+            id="income"
             className="calculator-input"
             type="number"
             placeholder="Enter your income"

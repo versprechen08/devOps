@@ -4,8 +4,10 @@ import "./App.css";
 import NavBar from "./components/nav-bar";
 import Footer from "./components/footer";
 import PostList from "./components/post-list";
+import PostDetail from "./components/post-detail";
 import WritePost from "./components/write-post"
 import { Route, Routes, BrowserRouter as Router } from "react-router-dom";
+
 
 function App() {
   return (
@@ -16,6 +18,7 @@ function App() {
           <Routes>
             <Route path='/' element={<PostList></PostList>}> </Route>
             <Route path='/post-list' element={<PostList></PostList>}></Route>
+            <Route path='/post-detail/:id' element={<PostDetail></PostDetail>}></Route>
             <Route path='/write-post' element={<WritePost></WritePost>}></Route>
           </Routes>
         </div>

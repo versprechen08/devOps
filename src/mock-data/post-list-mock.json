@@ -1,8 +1,8 @@
 [
-    { "id": 1, "title": "Card title", "text": "Some quick Some quick example text to build on the card title and make up the bulk of the card's content. text..." },
-    { "id": 2, "title": "Card title", "text": "Some quick Some quick example text to build on the card title and make up the bulk of the card's content. text..." },
-    { "id": 3, "title": "Card title", "text": "Some quick Some quick example text to build on the card title and make up the bulk of the card's content. text..." },
-    { "id": 4, "title": "Card title", "text": "Some quick Some quick example text to build on the card title and make up the bulk of the card's content. text..." },
-    { "id": 5, "title": "Card title", "text": "Some quick Some quick example text to build on the card title and make up the bulk of the card's content. text..." },
-    { "id": 6, "title": "Card title", "text": "Some quick Some quick example text to build on the card title and make up the bulk of the card's content. text..." }
+    { "id": 1, "postTitle": "Card title", "postContent": "Some quick Some quick example postContent to build on the card title and make up the bulk of the card's content. postContent..." },
+    { "id": 2, "postTitle": "Card title", "postContent": "Some quick Some quick example postContent to build on the card title and make up the bulk of the card's content. postContent..." },
+    { "id": 3, "postTitle": "Card title", "postContent": "Some quick Some quick example postContent to build on the card title and make up the bulk of the card's content. postContent..." },
+    { "id": 4, "postTitle": "Card title", "postContent": "Some quick Some quick example postContent to build on the card title and make up the bulk of the card's content. postContent..." },
+    { "id": 5, "postTitle": "Card title", "postContent": "Some quick Some quick example postContent to build on the card title and make up the bulk of the card's content. postContent..." },
+    { "id": 6, "postTitle": "Card title", "postContent": "Some quick Some quick example postContent to build on the card title and make up the bulk of the card's content. postContent..." }
 ]

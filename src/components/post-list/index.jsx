@@ -1,9 +1,11 @@
 import { useState } from "react";
 import postListData from "../../mock-data/post-list-mock.json";
+import { useNavigate } from "react-router-dom";
 import "./index.scss";
 
 export default (props) => {
   const [postList, setPostList] = useState(postListData);
+  const navigate = useNavigate(); 
   // 从server端读取postList
   return (
     <>
@@ -28,7 +30,12 @@ export default (props) => {
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
-              <a href="#" className="btn btn-primary">
+              <a href="#" className="btn btn-primary" onClick={
+                () => {
+                  window.localStorage.setItem("postDetail", JSON.stringify(post));
+                  navigate(`/post-detail/${post.id}`);
+                }
+              }>
                 Go somewhere
               </a>
             </div>
